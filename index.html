@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha a cor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ESCOLHA A COR</h1>
+    <div class="box">
+        <a onclick="changecolor('red')" id="red">#c0392b</a>
+        <a onclick="changecolor('blue')" id="blue">#3498db</a>
+        <a onclick="changecolor('green')" id="green">#27ae60</a>
+        <a onclick="changecolor('gray')" id="gray">#34495e</a>
+        <a onclick="changecolor('yellow')" id="yellow">#f1c40f</a>
+        <a onclick="changecolor('orange')" id="orange">#e67e22</a>
+    </div>
+
+    <script type="text/javascript">
+        function changecolor(id) {
+            document.body.style.background = document.getElementById(id).innerHTML;
+        
+        }
+    </script>
+    
+</body>
+</html>

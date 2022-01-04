@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+}
+
+h1{
+    text-align: center;
+}
+.box{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+.box a {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px;
+    margin: 5px;
+    cursor: pointer;
+}
+#red{
+    background: #c0392b;
+}
+#blue{
+    background: #3498db;
+}
+#green{
+    background: #27ae60;
+}
+#gray{
+    background: #34495e;
+}
+#yellow{
+    background: #f1c40f;
+}
+#orange{
+    background: #e67e22;
+}
